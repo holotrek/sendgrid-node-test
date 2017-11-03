@@ -4,8 +4,8 @@ const msg = {
     to: '<your_email_here>',
     subject: 'Test Transactional Template',
     from: '<from_email_here>',
-    text: body,
-    html: body,
+    text: 'Test email content',
+    html: 'Test email content',
     templateId: '<sendgrid_template_id_here>',
     substitutions: {
         '{ClientUrl}': 'http://localhost:4200'
